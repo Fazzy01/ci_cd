@@ -8,5 +8,9 @@ def test_check_it_return_addition():
    
 def test_check_it_return_substraction():
     res = mycalc.subtract(9, 5)
-    assert res == 5
+    assert res == 4
+    
+def test_check_it_return_multiply():
+    res = mycalc.multiply(2, 5)
+    assert res == 10
  
